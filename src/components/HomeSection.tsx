@@ -10,7 +10,7 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ onNavigate }) => {
       <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gray-900 text-white min-h-[500px] flex items-center">
         <div className="absolute inset-0 bg-black/50 z-10"></div>
         <img
-          src="https://raw.githubusercontent.com/velascocortijo/cv/refs/heads/main/hero.jpg"
+          src="/hero.jpg"
           alt="Cortijo Velasco"
           className="absolute inset-0 w-full h-full object-cover"
         />

@@ -63,7 +63,7 @@ export const SplitSection: React.FC = () => {
 
   const handleDeleteTransferencia = async (id: string) => {
     if (!confirm('¿Eliminar transferencia?')) return;
-    await CortijoAPI.deleteTransferencia(id);
+    await CortijoAPI.deleteTransferencia(id, year);
     loadData();
   };
 

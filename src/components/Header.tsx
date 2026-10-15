@@ -22,9 +22,7 @@ export const Header: React.FC<HeaderProps> = ({ currentSection, onNavigate, user
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         <div className="flex items-center gap-3 cursor-pointer" onClick={() => handleNav(user ? 'calendar' : 'home')}>
-          <div className="h-12 w-12 rounded-full overflow-hidden flex items-center justify-center bg-amber-100 border border-amber-300">
-            <span className="font-serif font-bold text-amber-800 text-lg">CV</span>
-          </div>
+          <img src="/logo_cv.jpg" alt="Cortijo Velasco Logo" className="h-12 w-auto object-contain mix-blend-multiply" />
           <div>
             <span className="font-serif font-bold text-2xl text-gray-900">Cortijo <span className="text-amber-600">Velasco</span></span>
             <p className="text-xs text-gray-500 tracking-wider uppercase">Gestión Familiar</p>
